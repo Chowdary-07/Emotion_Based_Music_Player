@@ -1,22 +1,26 @@
-# Emotion Based Music Player with Machine learning 
-This is a project using machine learning for detecting emotions based on the expression of the users. 
+# emotion-based-music-player
+This is a project using machine learning for detecting emotions based on the expression of the users. The interface is made up of HTML, CSS and JS, and the main code is of Python.
 
-The interface comprises HTML, CSS, JS, and the main code in Python.
 
-This code is developed in Windows, with eel, OpenCV, and Python.
+This code is developed in Ubuntu Linux, with eel , opencv and Python downloaded.  
+For running the code in Windows or Mac, certain path changes are required.
 
-# Requirements:
-    Python version: 3.7 or above
-    Modules: glob, os, NumPy, random, argparse, time, Eel
-    OpenCV( Full OpenCV module  Fisherface module is a must)
-    Chrome browser is needed (eel library is specifically designed for chrome)
 
-# code:
-    All files should be in the same folder.
-    Run "capture.py" in your editor or  terminal
+Please make sure you have the following in your machine...
 
-    Python terminal Navigate to a chrome window open with an interface of the music player. By Selecting emotion mode webcam will capture the image. Based on the image results,     emotion is detected, and emoji will be displayed on the monitor.
+Note: I have downloaded python using Anaconda.
 
-    When emotion is detected, you can see the name of the emotion in the terminal open.
+Python version: 3.6.5 (Try to download all python modules)(Important modules: glob, os, numpy, random, argparse, time)
+Eel version: 0.9.10 (download link: https://github.com/ChrisKnott/Eel)
+Opencv version: 3.4.3 (Full opencv module. Fisherface module is must)
+Chrome browser is needed (eel library is specifically designed for chrome)
+
+Download all the files in a folder. Open terminal in the same folder. 
+
+Type the command 'python capture.py' in terminal. 
+
+A window will open in chrome browser having the interface of the player. Select emotion mode from the right bottom corner. This will start the webcam. Face will be scanned in the ending of the currently playing song. You can manually move the song controller near the end to start the function. 
+
+When emotion is detected, you can see the name of the emotion in the terminal open.
 
 Refer to READIT.odt for more info.
