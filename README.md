@@ -13,7 +13,7 @@ This code is developed in Windows, with eel, OpenCV, and Python.
 
 # code:
   All files should be in the same folder.
-  Run "capture.py" in your editor or  terminal
+# Run "capture.py" in your editor or  terminal
 
   Python terminal Navigate to a chrome window open with an interface of the music player. By Selecting emotion mode webcam will capture the image. Based on the image results, emotion is detected, and emoji will be displayed on the monitor.
 
