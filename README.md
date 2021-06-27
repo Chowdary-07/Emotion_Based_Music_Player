@@ -20,3 +20,7 @@ This code is developed in Windows, with eel, OpenCV, and Python.
   When emotion is detected, you can see the name of the emotion in the terminal open.
 
   Refer to READIT.odt for more info.
+  
+  # Model Looks Like
+  <h1 align="center">Hey there <img src="https://github.com/Chowdary-07/Emotion_Based_Music_Player/blob/main/image9.png"</h1>
+  
